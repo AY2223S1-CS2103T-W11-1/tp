@@ -19,6 +19,13 @@ public class Remark {
         value = remark;
     }
 
+    /**
+     * Returns true if a given string is a valid remark.
+     */
+    public static boolean isValidRemark(String test) {
+        return true; // remarks are always valid
+    }
+
     @Override
     public String toString() {
         return value;
