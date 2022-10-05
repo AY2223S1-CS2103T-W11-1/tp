@@ -8,12 +8,12 @@ import java.util.Set;
 
 import eatwhere.foodguide.commons.core.index.Index;
 import eatwhere.foodguide.commons.util.StringUtil;
+import eatwhere.foodguide.logic.parser.exceptions.ParseException;
 import eatwhere.foodguide.model.person.Address;
 import eatwhere.foodguide.model.person.Email;
 import eatwhere.foodguide.model.person.Name;
 import eatwhere.foodguide.model.person.Phone;
 import eatwhere.foodguide.model.tag.Tag;
-import eatwhere.foodguide.logic.parser.exceptions.ParseException;
 
 /**
  * Contains utility methods used for parsing strings in the various *Parser classes.

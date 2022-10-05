@@ -1,7 +1,6 @@
 package eatwhere.foodguide.model;
 
 import static java.util.Objects.requireNonNull;
-import static eatwhere.foodguide.commons.util.CollectionUtil.requireAllNonNull;
 
 import java.nio.file.Path;
 import java.util.function.Predicate;
@@ -10,9 +9,9 @@ import java.util.logging.Logger;
 import eatwhere.foodguide.commons.core.GuiSettings;
 import eatwhere.foodguide.commons.core.LogsCenter;
 import eatwhere.foodguide.commons.util.CollectionUtil;
+import eatwhere.foodguide.model.person.Person;
 import javafx.collections.ObservableList;
 import javafx.collections.transformation.FilteredList;
-import eatwhere.foodguide.model.person.Person;
 
 /**
  * Represents the in-memory model of the address book data.

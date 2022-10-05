@@ -3,8 +3,8 @@ package eatwhere.foodguide.logic.commands;
 import static java.util.Objects.requireNonNull;
 
 import eatwhere.foodguide.commons.core.Messages;
-import eatwhere.foodguide.model.person.NameContainsKeywordsPredicate;
 import eatwhere.foodguide.model.Model;
+import eatwhere.foodguide.model.person.NameContainsKeywordsPredicate;
 
 /**
  * Finds and lists all persons in address book whose name contains any of the argument keywords.

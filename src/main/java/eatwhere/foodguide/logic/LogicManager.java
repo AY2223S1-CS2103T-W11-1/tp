@@ -9,13 +9,13 @@ import eatwhere.foodguide.commons.core.LogsCenter;
 import eatwhere.foodguide.logic.commands.Command;
 import eatwhere.foodguide.logic.commands.CommandResult;
 import eatwhere.foodguide.logic.commands.exceptions.CommandException;
+import eatwhere.foodguide.logic.parser.AddressBookParser;
 import eatwhere.foodguide.logic.parser.exceptions.ParseException;
 import eatwhere.foodguide.model.Model;
 import eatwhere.foodguide.model.ReadOnlyAddressBook;
 import eatwhere.foodguide.model.person.Person;
 import eatwhere.foodguide.storage.Storage;
 import javafx.collections.ObservableList;
-import eatwhere.foodguide.logic.parser.AddressBookParser;
 
 /**
  * The main LogicManager of the app.

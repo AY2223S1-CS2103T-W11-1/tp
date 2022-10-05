@@ -6,9 +6,9 @@ import java.util.List;
 
 import eatwhere.foodguide.commons.core.Messages;
 import eatwhere.foodguide.commons.core.index.Index;
-import eatwhere.foodguide.model.person.Person;
 import eatwhere.foodguide.logic.commands.exceptions.CommandException;
 import eatwhere.foodguide.model.Model;
+import eatwhere.foodguide.model.person.Person;
 
 /**
  * Deletes a person identified using it's displayed index from the address book.

@@ -9,9 +9,9 @@ import eatwhere.foodguide.model.ReadOnlyAddressBook;
 import eatwhere.foodguide.model.person.Address;
 import eatwhere.foodguide.model.person.Email;
 import eatwhere.foodguide.model.person.Name;
+import eatwhere.foodguide.model.person.Person;
 import eatwhere.foodguide.model.person.Phone;
 import eatwhere.foodguide.model.tag.Tag;
-import eatwhere.foodguide.model.person.Person;
 
 /**
  * Contains utility methods for populating {@code AddressBook} with sample data.

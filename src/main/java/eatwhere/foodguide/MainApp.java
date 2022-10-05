@@ -26,10 +26,10 @@ import eatwhere.foodguide.storage.JsonUserPrefsStorage;
 import eatwhere.foodguide.storage.Storage;
 import eatwhere.foodguide.storage.StorageManager;
 import eatwhere.foodguide.storage.UserPrefsStorage;
-import javafx.application.Application;
-import javafx.stage.Stage;
 import eatwhere.foodguide.ui.Ui;
 import eatwhere.foodguide.ui.UiManager;
+import javafx.application.Application;
+import javafx.stage.Stage;
 
 /**
  * Runs the application.

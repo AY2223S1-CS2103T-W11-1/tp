@@ -1,12 +1,12 @@
 package eatwhere.foodguide.logic.commands;
 
-import static java.util.Objects.requireNonNull;
 import static eatwhere.foodguide.logic.parser.CliSyntax.PREFIX_ADDRESS;
 import static eatwhere.foodguide.logic.parser.CliSyntax.PREFIX_EMAIL;
 import static eatwhere.foodguide.logic.parser.CliSyntax.PREFIX_NAME;
 import static eatwhere.foodguide.logic.parser.CliSyntax.PREFIX_PHONE;
 import static eatwhere.foodguide.logic.parser.CliSyntax.PREFIX_TAG;
 import static eatwhere.foodguide.model.Model.PREDICATE_SHOW_ALL_PERSONS;
+import static java.util.Objects.requireNonNull;
 
 import java.util.Collections;
 import java.util.HashSet;
@@ -17,14 +17,14 @@ import java.util.Set;
 import eatwhere.foodguide.commons.core.Messages;
 import eatwhere.foodguide.commons.core.index.Index;
 import eatwhere.foodguide.commons.util.CollectionUtil;
+import eatwhere.foodguide.logic.commands.exceptions.CommandException;
+import eatwhere.foodguide.model.Model;
 import eatwhere.foodguide.model.person.Address;
 import eatwhere.foodguide.model.person.Email;
 import eatwhere.foodguide.model.person.Name;
 import eatwhere.foodguide.model.person.Person;
 import eatwhere.foodguide.model.person.Phone;
 import eatwhere.foodguide.model.tag.Tag;
-import eatwhere.foodguide.logic.commands.exceptions.CommandException;
-import eatwhere.foodguide.model.Model;
 
 /**
  * Edits the details of an existing person in the address book.
