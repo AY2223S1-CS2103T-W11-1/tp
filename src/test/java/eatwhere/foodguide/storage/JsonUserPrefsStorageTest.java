@@ -12,6 +12,7 @@ import java.util.Optional;
 import eatwhere.foodguide.commons.core.GuiSettings;
 import eatwhere.foodguide.commons.exceptions.DataConversionException;
 import eatwhere.foodguide.model.UserPrefs;
+
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
 

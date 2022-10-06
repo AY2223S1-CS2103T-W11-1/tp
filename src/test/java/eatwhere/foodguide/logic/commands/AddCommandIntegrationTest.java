@@ -9,6 +9,7 @@ import eatwhere.foodguide.model.UserPrefs;
 import eatwhere.foodguide.model.person.Person;
 import eatwhere.foodguide.testutil.PersonBuilder;
 import eatwhere.foodguide.testutil.TypicalPersons;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

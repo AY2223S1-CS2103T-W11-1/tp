@@ -9,6 +9,7 @@ import java.util.Collections;
 import java.util.List;
 
 import eatwhere.foodguide.testutil.Assert;
+
 import org.junit.jupiter.api.Test;
 
 public class CollectionUtilTest {

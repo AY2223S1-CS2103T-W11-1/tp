@@ -2,6 +2,7 @@ package eatwhere.foodguide.logic.commands;
 
 import eatwhere.foodguide.model.Model;
 import eatwhere.foodguide.model.ModelManager;
+
 import org.junit.jupiter.api.Test;
 
 public class HelpCommandTest {

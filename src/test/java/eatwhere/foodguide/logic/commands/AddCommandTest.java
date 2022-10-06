@@ -19,7 +19,9 @@ import eatwhere.foodguide.model.ReadOnlyUserPrefs;
 import eatwhere.foodguide.model.person.Person;
 import eatwhere.foodguide.testutil.Assert;
 import eatwhere.foodguide.testutil.PersonBuilder;
+
 import javafx.collections.ObservableList;
+
 import org.junit.jupiter.api.Test;
 
 public class AddCommandTest {
@@ -46,7 +48,8 @@ public class AddCommandTest {
         AddCommand addCommand = new AddCommand(validPerson);
         ModelStub modelStub = new ModelStubWithPerson(validPerson);
 
-        Assert.assertThrows(CommandException.class, AddCommand.MESSAGE_DUPLICATE_PERSON, () -> addCommand.execute(modelStub));
+        Assert.assertThrows(CommandException.class, AddCommand.MESSAGE_DUPLICATE_PERSON,
+                () -> addCommand.execute(modelStub));
     }
 
     @Test

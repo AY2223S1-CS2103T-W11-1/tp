@@ -1,6 +1,7 @@
 package eatwhere.foodguide.model;
 
 import eatwhere.foodguide.testutil.Assert;
+
 import org.junit.jupiter.api.Test;
 
 public class UserPrefsTest {

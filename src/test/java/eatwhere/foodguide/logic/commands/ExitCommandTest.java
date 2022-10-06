@@ -4,6 +4,7 @@ import static eatwhere.foodguide.logic.commands.CommandTestUtil.assertCommandSuc
 
 import eatwhere.foodguide.model.Model;
 import eatwhere.foodguide.model.ModelManager;
+
 import org.junit.jupiter.api.Test;
 
 public class ExitCommandTest {
@@ -12,7 +13,8 @@ public class ExitCommandTest {
 
     @Test
     public void execute_exit_success() {
-        CommandResult expectedCommandResult = new CommandResult(ExitCommand.MESSAGE_EXIT_ACKNOWLEDGEMENT, false, true);
+        CommandResult expectedCommandResult = new CommandResult(ExitCommand.MESSAGE_EXIT_ACKNOWLEDGEMENT,
+                false, true);
         assertCommandSuccess(new ExitCommand(), model, expectedCommandResult, expectedModel);
     }
 }

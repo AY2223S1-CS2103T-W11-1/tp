@@ -7,6 +7,7 @@ import eatwhere.foodguide.model.Model;
 import eatwhere.foodguide.model.ModelManager;
 import eatwhere.foodguide.model.UserPrefs;
 import eatwhere.foodguide.testutil.TypicalPersons;
+
 import org.junit.jupiter.api.Test;
 
 public class ClearCommandTest {

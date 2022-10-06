@@ -5,6 +5,7 @@ import eatwhere.foodguide.model.ModelManager;
 import eatwhere.foodguide.model.UserPrefs;
 import eatwhere.foodguide.testutil.TypicalIndexes;
 import eatwhere.foodguide.testutil.TypicalPersons;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

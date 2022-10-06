@@ -3,6 +3,7 @@ package eatwhere.foodguide.commons.util;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import eatwhere.foodguide.testutil.Assert;
+
 import org.junit.jupiter.api.Test;
 
 public class AppUtilTest {
@@ -31,6 +32,7 @@ public class AppUtilTest {
     @Test
     public void checkArgument_falseWithErrorMessage_throwsIllegalArgumentException() {
         String errorMessage = "error message";
-        Assert.assertThrows(IllegalArgumentException.class, errorMessage, () -> AppUtil.checkArgument(false, errorMessage));
+        Assert.assertThrows(IllegalArgumentException.class, errorMessage,
+                () -> AppUtil.checkArgument(false, errorMessage));
     }
 }

@@ -8,6 +8,7 @@ import java.util.Arrays;
 import eatwhere.foodguide.commons.core.Messages;
 import eatwhere.foodguide.logic.commands.FindCommand;
 import eatwhere.foodguide.model.person.NameContainsKeywordsPredicate;
+
 import org.junit.jupiter.api.Test;
 
 public class FindCommandParserTest {
@@ -16,7 +17,8 @@ public class FindCommandParserTest {
 
     @Test
     public void parse_emptyArg_throwsParseException() {
-        assertParseFailure(parser, "     ", String.format(Messages.MESSAGE_INVALID_COMMAND_FORMAT, FindCommand.MESSAGE_USAGE));
+        assertParseFailure(parser, "     ",
+                String.format(Messages.MESSAGE_INVALID_COMMAND_FORMAT, FindCommand.MESSAGE_USAGE));
     }
 
     @Test

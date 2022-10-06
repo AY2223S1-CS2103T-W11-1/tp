@@ -6,6 +6,7 @@ import static eatwhere.foodguide.logic.parser.CommandParserTestUtil.assertParseS
 import eatwhere.foodguide.commons.core.Messages;
 import eatwhere.foodguide.logic.commands.DeleteCommand;
 import eatwhere.foodguide.testutil.TypicalIndexes;
+
 import org.junit.jupiter.api.Test;
 
 /**
@@ -26,6 +27,7 @@ public class DeleteCommandParserTest {
 
     @Test
     public void parse_invalidArgs_throwsParseException() {
-        assertParseFailure(parser, "a", String.format(Messages.MESSAGE_INVALID_COMMAND_FORMAT, DeleteCommand.MESSAGE_USAGE));
+        assertParseFailure(parser, "a", String.format(Messages.MESSAGE_INVALID_COMMAND_FORMAT,
+                DeleteCommand.MESSAGE_USAGE));
     }
 }

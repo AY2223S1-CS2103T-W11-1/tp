@@ -16,6 +16,7 @@ import eatwhere.foodguide.model.person.Phone;
 import eatwhere.foodguide.model.tag.Tag;
 import eatwhere.foodguide.testutil.Assert;
 import eatwhere.foodguide.testutil.TypicalIndexes;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

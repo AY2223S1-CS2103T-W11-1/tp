@@ -7,6 +7,7 @@ import java.nio.file.Path;
 
 import eatwhere.foodguide.testutil.SerializableTestClass;
 import eatwhere.foodguide.testutil.TestUtil;
+
 import org.junit.jupiter.api.Test;
 
 /**

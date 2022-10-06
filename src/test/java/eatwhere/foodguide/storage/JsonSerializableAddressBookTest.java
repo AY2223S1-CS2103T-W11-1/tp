@@ -10,6 +10,7 @@ import eatwhere.foodguide.commons.exceptions.IllegalValueException;
 import eatwhere.foodguide.commons.util.JsonUtil;
 import eatwhere.foodguide.model.AddressBook;
 import eatwhere.foodguide.testutil.TypicalPersons;
+
 import org.junit.jupiter.api.Test;
 
 public class JsonSerializableAddressBookTest {
