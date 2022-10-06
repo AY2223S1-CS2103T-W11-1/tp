@@ -1,7 +1,7 @@
 package eatwhere.foodguide.storage;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static eatwhere.foodguide.testutil.Assert.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -9,9 +9,8 @@ import java.nio.file.Paths;
 import eatwhere.foodguide.commons.exceptions.IllegalValueException;
 import eatwhere.foodguide.commons.util.JsonUtil;
 import eatwhere.foodguide.model.AddressBook;
-import org.junit.jupiter.api.Test;
-
 import eatwhere.foodguide.testutil.TypicalPersons;
+import org.junit.jupiter.api.Test;
 
 public class JsonSerializableAddressBookTest {
 

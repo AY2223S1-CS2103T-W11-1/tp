@@ -2,7 +2,6 @@ package eatwhere.foodguide.logic.commands;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static eatwhere.foodguide.testutil.Assert.assertThrows;
 
 import java.util.ArrayList;
 import java.util.Arrays;

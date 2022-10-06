@@ -1,8 +1,8 @@
 package eatwhere.foodguide.storage;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static eatwhere.foodguide.testutil.Assert.assertThrows;
 import static eatwhere.foodguide.testutil.TypicalPersons.BENSON;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.ArrayList;
 import java.util.List;

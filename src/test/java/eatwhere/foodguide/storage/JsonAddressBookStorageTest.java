@@ -1,12 +1,12 @@
 package eatwhere.foodguide.storage;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
 import static eatwhere.foodguide.testutil.Assert.assertThrows;
 import static eatwhere.foodguide.testutil.TypicalPersons.ALICE;
 import static eatwhere.foodguide.testutil.TypicalPersons.HOON;
 import static eatwhere.foodguide.testutil.TypicalPersons.IDA;
 import static eatwhere.foodguide.testutil.TypicalPersons.getTypicalAddressBook;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
 import java.io.IOException;
 import java.nio.file.Path;

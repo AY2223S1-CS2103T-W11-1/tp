@@ -1,10 +1,10 @@
 package eatwhere.foodguide.logic.commands;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 import static eatwhere.foodguide.logic.commands.CommandTestUtil.assertCommandFailure;
 import static eatwhere.foodguide.logic.commands.CommandTestUtil.assertCommandSuccess;
 import static eatwhere.foodguide.logic.commands.CommandTestUtil.showPersonAtIndex;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import eatwhere.foodguide.commons.core.Messages;
 import eatwhere.foodguide.commons.core.index.Index;

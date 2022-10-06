@@ -1,7 +1,6 @@
 package eatwhere.foodguide.logic;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static eatwhere.foodguide.testutil.Assert.assertThrows;
 
 import java.io.IOException;
 import java.nio.file.Path;

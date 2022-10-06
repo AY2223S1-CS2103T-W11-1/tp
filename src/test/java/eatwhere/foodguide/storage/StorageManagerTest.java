@@ -1,8 +1,8 @@
 package eatwhere.foodguide.storage;
 
+import static eatwhere.foodguide.testutil.TypicalPersons.getTypicalAddressBook;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static eatwhere.foodguide.testutil.TypicalPersons.getTypicalAddressBook;
 
 import java.nio.file.Path;
 
