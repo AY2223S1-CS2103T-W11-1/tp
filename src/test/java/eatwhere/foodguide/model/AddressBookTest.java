@@ -9,17 +9,16 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
+import org.junit.jupiter.api.Test;
+
 import eatwhere.foodguide.logic.commands.CommandTestUtil;
 import eatwhere.foodguide.model.person.Person;
 import eatwhere.foodguide.model.person.exceptions.DuplicatePersonException;
 import eatwhere.foodguide.testutil.Assert;
 import eatwhere.foodguide.testutil.PersonBuilder;
 import eatwhere.foodguide.testutil.TypicalPersons;
-
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-
-import org.junit.jupiter.api.Test;
 
 public class AddressBookTest {
 

@@ -8,14 +8,14 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
 
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
 import eatwhere.foodguide.commons.core.GuiSettings;
 import eatwhere.foodguide.model.person.NameContainsKeywordsPredicate;
 import eatwhere.foodguide.testutil.AddressBookBuilder;
 import eatwhere.foodguide.testutil.Assert;
 import eatwhere.foodguide.testutil.TypicalPersons;
-
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
 
 public class ModelManagerTest {
 
@@ -89,8 +89,8 @@ public class ModelManagerTest {
 
     @Test
     public void getFilteredPersonList_modifyList_throwsUnsupportedOperationException() {
-        Assert.assertThrows(UnsupportedOperationException.class,
-                () -> modelManager.getFilteredPersonList().remove(0));
+        Assert.assertThrows(UnsupportedOperationException.class, ()
+                -> modelManager.getFilteredPersonList().remove(0));
     }
 
     @Test

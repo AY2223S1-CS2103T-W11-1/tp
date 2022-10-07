@@ -6,14 +6,14 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import java.nio.file.Path;
 
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.io.TempDir;
+
 import eatwhere.foodguide.commons.core.GuiSettings;
 import eatwhere.foodguide.model.AddressBook;
 import eatwhere.foodguide.model.ReadOnlyAddressBook;
 import eatwhere.foodguide.model.UserPrefs;
-
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.io.TempDir;
 
 public class StorageManagerTest {
 

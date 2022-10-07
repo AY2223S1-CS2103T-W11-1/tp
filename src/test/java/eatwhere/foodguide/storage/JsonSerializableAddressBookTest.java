@@ -6,12 +6,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+import org.junit.jupiter.api.Test;
+
 import eatwhere.foodguide.commons.exceptions.IllegalValueException;
 import eatwhere.foodguide.commons.util.JsonUtil;
 import eatwhere.foodguide.model.AddressBook;
 import eatwhere.foodguide.testutil.TypicalPersons;
-
-import org.junit.jupiter.api.Test;
 
 public class JsonSerializableAddressBookTest {
 

@@ -3,6 +3,8 @@ package eatwhere.foodguide.logic.commands;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import org.junit.jupiter.api.Test;
+
 import eatwhere.foodguide.commons.core.Messages;
 import eatwhere.foodguide.commons.core.index.Index;
 import eatwhere.foodguide.model.AddressBook;
@@ -14,8 +16,6 @@ import eatwhere.foodguide.testutil.EditPersonDescriptorBuilder;
 import eatwhere.foodguide.testutil.PersonBuilder;
 import eatwhere.foodguide.testutil.TypicalIndexes;
 import eatwhere.foodguide.testutil.TypicalPersons;
-
-import org.junit.jupiter.api.Test;
 
 /**
  * Contains integration tests (interaction with the Model) and unit tests for EditCommand.

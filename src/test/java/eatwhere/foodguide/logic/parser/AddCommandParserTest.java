@@ -1,5 +1,7 @@
 package eatwhere.foodguide.logic.parser;
 
+import org.junit.jupiter.api.Test;
+
 import eatwhere.foodguide.commons.core.Messages;
 import eatwhere.foodguide.logic.commands.AddCommand;
 import eatwhere.foodguide.logic.commands.CommandTestUtil;
@@ -12,14 +14,13 @@ import eatwhere.foodguide.model.tag.Tag;
 import eatwhere.foodguide.testutil.PersonBuilder;
 import eatwhere.foodguide.testutil.TypicalPersons;
 
-import org.junit.jupiter.api.Test;
-
 public class AddCommandParserTest {
     private AddCommandParser parser = new AddCommandParser();
 
     @Test
     public void parse_allFieldsPresent_success() {
-        Person expectedPerson = new PersonBuilder(TypicalPersons.BOB).withTags(CommandTestUtil.VALID_TAG_FRIEND).build();
+        Person expectedPerson = new PersonBuilder(TypicalPersons.BOB)
+                .withTags(CommandTestUtil.VALID_TAG_FRIEND).build();
 
         // whitespace only preamble
         CommandParserTestUtil.assertParseSuccess(parser, CommandTestUtil.PREAMBLE_WHITESPACE
@@ -52,7 +53,8 @@ public class AddCommandParserTest {
                 .build();
         CommandParserTestUtil.assertParseSuccess(parser, CommandTestUtil.NAME_DESC_BOB
                 + CommandTestUtil.PHONE_DESC_BOB + CommandTestUtil.EMAIL_DESC_BOB + CommandTestUtil.ADDRESS_DESC_BOB
-                + CommandTestUtil.TAG_DESC_HUSBAND + CommandTestUtil.TAG_DESC_FRIEND, new AddCommand(expectedPersonMultipleTags));
+                + CommandTestUtil.TAG_DESC_HUSBAND + CommandTestUtil.TAG_DESC_FRIEND,
+                new AddCommand(expectedPersonMultipleTags));
     }
 
     @Test
@@ -60,8 +62,8 @@ public class AddCommandParserTest {
         // zero tags
         Person expectedPerson = new PersonBuilder(TypicalPersons.AMY).withTags().build();
         CommandParserTestUtil.assertParseSuccess(parser, CommandTestUtil.NAME_DESC_AMY
-                        + CommandTestUtil.PHONE_DESC_AMY + CommandTestUtil.EMAIL_DESC_AMY + CommandTestUtil.ADDRESS_DESC_AMY,
-                new AddCommand(expectedPerson));
+                + CommandTestUtil.PHONE_DESC_AMY + CommandTestUtil.EMAIL_DESC_AMY
+                + CommandTestUtil.ADDRESS_DESC_AMY, new AddCommand(expectedPerson));
     }
 
     @Test

@@ -5,11 +5,11 @@ import static eatwhere.foodguide.logic.parser.CommandParserTestUtil.assertParseS
 
 import java.util.Arrays;
 
+import org.junit.jupiter.api.Test;
+
 import eatwhere.foodguide.commons.core.Messages;
 import eatwhere.foodguide.logic.commands.FindCommand;
 import eatwhere.foodguide.model.person.NameContainsKeywordsPredicate;
-
-import org.junit.jupiter.api.Test;
 
 public class FindCommandParserTest {
 

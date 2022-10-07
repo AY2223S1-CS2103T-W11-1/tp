@@ -1,8 +1,8 @@
 package eatwhere.foodguide.model.tag;
 
-import eatwhere.foodguide.testutil.Assert;
-
 import org.junit.jupiter.api.Test;
+
+import eatwhere.foodguide.testutil.Assert;
 
 public class TagTest {
 

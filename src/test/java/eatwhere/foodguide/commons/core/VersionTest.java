@@ -3,9 +3,9 @@ package eatwhere.foodguide.commons.core;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import eatwhere.foodguide.testutil.Assert;
-
 import org.junit.jupiter.api.Test;
+
+import eatwhere.foodguide.testutil.Assert;
 
 public class VersionTest {
 

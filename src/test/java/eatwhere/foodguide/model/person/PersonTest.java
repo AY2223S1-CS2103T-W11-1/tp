@@ -6,12 +6,12 @@ import static eatwhere.foodguide.logic.commands.CommandTestUtil.VALID_NAME_BOB;
 import static eatwhere.foodguide.logic.commands.CommandTestUtil.VALID_PHONE_BOB;
 import static eatwhere.foodguide.logic.commands.CommandTestUtil.VALID_TAG_HUSBAND;
 
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
 import eatwhere.foodguide.testutil.Assert;
 import eatwhere.foodguide.testutil.PersonBuilder;
 import eatwhere.foodguide.testutil.TypicalPersons;
-
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
 
 public class PersonTest {
 

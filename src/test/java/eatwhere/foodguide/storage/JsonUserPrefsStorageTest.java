@@ -9,12 +9,12 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Optional;
 
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.io.TempDir;
+
 import eatwhere.foodguide.commons.core.GuiSettings;
 import eatwhere.foodguide.commons.exceptions.DataConversionException;
 import eatwhere.foodguide.model.UserPrefs;
-
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.io.TempDir;
 
 public class JsonUserPrefsStorageTest {
 

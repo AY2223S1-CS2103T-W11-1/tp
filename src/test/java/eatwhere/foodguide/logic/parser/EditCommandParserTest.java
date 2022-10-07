@@ -3,6 +3,8 @@ package eatwhere.foodguide.logic.parser;
 import static eatwhere.foodguide.logic.parser.CommandParserTestUtil.assertParseFailure;
 import static eatwhere.foodguide.logic.parser.CommandParserTestUtil.assertParseSuccess;
 
+import org.junit.jupiter.api.Test;
+
 import eatwhere.foodguide.commons.core.Messages;
 import eatwhere.foodguide.commons.core.index.Index;
 import eatwhere.foodguide.logic.commands.CommandTestUtil;
@@ -14,8 +16,6 @@ import eatwhere.foodguide.model.person.Phone;
 import eatwhere.foodguide.model.tag.Tag;
 import eatwhere.foodguide.testutil.EditPersonDescriptorBuilder;
 import eatwhere.foodguide.testutil.TypicalIndexes;
-
-import org.junit.jupiter.api.Test;
 
 public class EditCommandParserTest {
 

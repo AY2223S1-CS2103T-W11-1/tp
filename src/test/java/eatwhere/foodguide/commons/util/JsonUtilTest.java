@@ -5,10 +5,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.io.IOException;
 import java.nio.file.Path;
 
+import org.junit.jupiter.api.Test;
+
 import eatwhere.foodguide.testutil.SerializableTestClass;
 import eatwhere.foodguide.testutil.TestUtil;
-
-import org.junit.jupiter.api.Test;
 
 /**
  * Tests JSON Read and Write

@@ -6,13 +6,12 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 import java.net.URL;
 import java.nio.file.Path;
 
-import eatwhere.foodguide.MainApp;
-import eatwhere.foodguide.testutil.Assert;
-
-import javafx.fxml.FXML;
-
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
+
+import eatwhere.foodguide.MainApp;
+import eatwhere.foodguide.testutil.Assert;
+import javafx.fxml.FXML;
 
 public class UiPartTest {
 

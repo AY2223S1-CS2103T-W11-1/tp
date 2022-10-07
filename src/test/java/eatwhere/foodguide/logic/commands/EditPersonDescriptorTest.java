@@ -10,9 +10,9 @@ import static eatwhere.foodguide.logic.commands.CommandTestUtil.VALID_TAG_HUSBAN
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import eatwhere.foodguide.testutil.EditPersonDescriptorBuilder;
-
 import org.junit.jupiter.api.Test;
+
+import eatwhere.foodguide.testutil.EditPersonDescriptorBuilder;
 
 public class EditPersonDescriptorTest {
 

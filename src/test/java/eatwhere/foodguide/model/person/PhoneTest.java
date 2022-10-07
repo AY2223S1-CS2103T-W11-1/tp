@@ -3,9 +3,9 @@ package eatwhere.foodguide.model.person;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import eatwhere.foodguide.testutil.Assert;
-
 import org.junit.jupiter.api.Test;
+
+import eatwhere.foodguide.testutil.Assert;
 
 public class PhoneTest {
 

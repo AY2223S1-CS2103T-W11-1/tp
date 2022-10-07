@@ -2,9 +2,9 @@ package eatwhere.foodguide.commons.util;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-import eatwhere.foodguide.testutil.Assert;
-
 import org.junit.jupiter.api.Test;
+
+import eatwhere.foodguide.testutil.Assert;
 
 public class AppUtilTest {
 

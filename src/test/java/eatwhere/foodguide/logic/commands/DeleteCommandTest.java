@@ -6,6 +6,8 @@ import static eatwhere.foodguide.logic.commands.CommandTestUtil.showPersonAtInde
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import org.junit.jupiter.api.Test;
+
 import eatwhere.foodguide.commons.core.Messages;
 import eatwhere.foodguide.commons.core.index.Index;
 import eatwhere.foodguide.model.Model;
@@ -14,8 +16,6 @@ import eatwhere.foodguide.model.UserPrefs;
 import eatwhere.foodguide.model.person.Person;
 import eatwhere.foodguide.testutil.TypicalIndexes;
 import eatwhere.foodguide.testutil.TypicalPersons;
-
-import org.junit.jupiter.api.Test;
 
 /**
  * Contains integration tests (interaction with the Model) and unit tests for

@@ -5,9 +5,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.io.FileNotFoundException;
 
-import eatwhere.foodguide.testutil.Assert;
-
 import org.junit.jupiter.api.Test;
+
+import eatwhere.foodguide.testutil.Assert;
 
 public class StringUtilTest {
 
@@ -57,26 +57,26 @@ public class StringUtilTest {
 
     @Test
     public void containsWordIgnoreCase_nullWord_throwsNullPointerException() {
-        Assert.assertThrows(NullPointerException.class,
-                () -> StringUtil.containsWordIgnoreCase("typical sentence", null));
+        Assert.assertThrows(NullPointerException.class, ()
+                -> StringUtil.containsWordIgnoreCase("typical sentence", null));
     }
 
     @Test
     public void containsWordIgnoreCase_emptyWord_throwsIllegalArgumentException() {
         Assert.assertThrows(IllegalArgumentException.class, "Word parameter cannot be empty", ()
-            -> StringUtil.containsWordIgnoreCase("typical sentence", "  "));
+                -> StringUtil.containsWordIgnoreCase("typical sentence", "  "));
     }
 
     @Test
     public void containsWordIgnoreCase_multipleWords_throwsIllegalArgumentException() {
-        Assert.assertThrows(IllegalArgumentException.class, "Word parameter should be a single word",
-                () -> StringUtil.containsWordIgnoreCase("typical sentence", "aaa BBB"));
+        Assert.assertThrows(IllegalArgumentException.class, "Word parameter should be a single word", ()
+                -> StringUtil.containsWordIgnoreCase("typical sentence", "aaa BBB"));
     }
 
     @Test
     public void containsWordIgnoreCase_nullSentence_throwsNullPointerException() {
-        Assert.assertThrows(NullPointerException.class,
-                () -> StringUtil.containsWordIgnoreCase(null, "abc"));
+        Assert.assertThrows(NullPointerException.class, ()
+                -> StringUtil.containsWordIgnoreCase(null, "abc"));
     }
 
     /*

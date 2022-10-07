@@ -8,6 +8,9 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
 import eatwhere.foodguide.logic.parser.exceptions.ParseException;
 import eatwhere.foodguide.model.person.Address;
 import eatwhere.foodguide.model.person.Email;
@@ -16,9 +19,6 @@ import eatwhere.foodguide.model.person.Phone;
 import eatwhere.foodguide.model.tag.Tag;
 import eatwhere.foodguide.testutil.Assert;
 import eatwhere.foodguide.testutil.TypicalIndexes;
-
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
 
 public class ParserUtilTest {
     private static final String INVALID_NAME = "R@chel";

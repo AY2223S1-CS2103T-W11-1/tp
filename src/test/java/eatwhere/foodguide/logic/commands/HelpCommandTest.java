@@ -1,9 +1,9 @@
 package eatwhere.foodguide.logic.commands;
 
+import org.junit.jupiter.api.Test;
+
 import eatwhere.foodguide.model.Model;
 import eatwhere.foodguide.model.ModelManager;
-
-import org.junit.jupiter.api.Test;
 
 public class HelpCommandTest {
     private Model model = new ModelManager();

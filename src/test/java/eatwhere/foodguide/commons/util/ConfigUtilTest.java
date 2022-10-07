@@ -9,12 +9,12 @@ import java.nio.file.Paths;
 import java.util.Optional;
 import java.util.logging.Level;
 
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.io.TempDir;
+
 import eatwhere.foodguide.commons.core.Config;
 import eatwhere.foodguide.commons.exceptions.DataConversionException;
 import eatwhere.foodguide.testutil.Assert;
-
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.io.TempDir;
 
 public class ConfigUtilTest {
 

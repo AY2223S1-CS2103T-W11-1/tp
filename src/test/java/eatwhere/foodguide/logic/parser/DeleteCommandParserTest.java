@@ -3,11 +3,11 @@ package eatwhere.foodguide.logic.parser;
 import static eatwhere.foodguide.logic.parser.CommandParserTestUtil.assertParseFailure;
 import static eatwhere.foodguide.logic.parser.CommandParserTestUtil.assertParseSuccess;
 
+import org.junit.jupiter.api.Test;
+
 import eatwhere.foodguide.commons.core.Messages;
 import eatwhere.foodguide.logic.commands.DeleteCommand;
 import eatwhere.foodguide.testutil.TypicalIndexes;
-
-import org.junit.jupiter.api.Test;
 
 /**
  * As we are only doing white-box testing, our test cases do not cover path variations
