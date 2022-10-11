@@ -17,20 +17,20 @@ public class ListCommand extends Command {
             + "Usage: list [-h]";
 
     /** Help message should be displayed in the response box. */
-    private final boolean DisplayHelp;
+    private final boolean isDisplayHelp;
 
     public ListCommand() {
-        this.DisplayHelp = false;
+        this.isDisplayHelp = false;
     }
-    public ListCommand(boolean DisplayHelp) {
-        this.DisplayHelp = DisplayHelp;
+    public ListCommand(boolean isDisplayHelp) {
+        this.isDisplayHelp = isDisplayHelp;
     }
 
     @Override
     public CommandResult execute(Model model) {
         requireNonNull(model);
 
-        if(DisplayHelp) {
+        if (isDisplayHelp) {
             return new CommandResult(MESSAGE_HELP);
         }
 
