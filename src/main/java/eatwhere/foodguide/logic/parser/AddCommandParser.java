@@ -5,6 +5,7 @@ import static eatwhere.foodguide.logic.parser.CliSyntax.PREFIX_EMAIL;
 import static eatwhere.foodguide.logic.parser.CliSyntax.PREFIX_NAME;
 import static eatwhere.foodguide.logic.parser.CliSyntax.PREFIX_PHONE;
 import static eatwhere.foodguide.logic.parser.CliSyntax.PREFIX_TAG;
+import static eatwhere.foodguide.logic.parser.ParserUtil.arePrefixesPresent;
 
 import java.util.Set;
 import java.util.stream.Stream;
@@ -47,14 +48,6 @@ public class AddCommandParser implements Parser<AddCommand> {
         Eatery eatery = new Eatery(name, phone, email, location, tagList);
 
         return new AddCommand(eatery);
-    }
-
-    /**
-     * Returns true if none of the prefixes contains empty {@code Optional} values in the given
-     * {@code ArgumentMultimap}.
-     */
-    private static boolean arePrefixesPresent(ArgumentMultimap argumentMultimap, Prefix... prefixes) {
-        return Stream.of(prefixes).allMatch(prefix -> argumentMultimap.getValue(prefix).isPresent());
     }
 
 }
