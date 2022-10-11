@@ -2,8 +2,6 @@ package eatwhere.foodguide.logic.commands;
 
 import static java.util.Objects.requireNonNull;
 
-import java.util.List;
-
 import eatwhere.foodguide.model.Model;
 
 /**

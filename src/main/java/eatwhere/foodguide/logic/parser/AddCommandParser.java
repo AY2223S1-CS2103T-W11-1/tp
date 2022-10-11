@@ -8,7 +8,6 @@ import static eatwhere.foodguide.logic.parser.CliSyntax.PREFIX_TAG;
 import static eatwhere.foodguide.logic.parser.ParserUtil.arePrefixesPresent;
 
 import java.util.Set;
-import java.util.stream.Stream;
 
 import eatwhere.foodguide.commons.core.Messages;
 import eatwhere.foodguide.logic.commands.AddCommand;
